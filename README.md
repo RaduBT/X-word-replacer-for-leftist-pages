@@ -1,5 +1,5 @@
 # Twitter-word-replace
-A Chrome extension for replacing words on Twitter exclusively.
+A Chrome extension for replacing words on X (Twitter) exclusively.
 
 ### Files
 * [manifest.json](manifest.json) is necessary for Chrome and tells the extension to use Twitter exclusively, so the words won't be replaced on other websites. Edit this file to add your extension's title, description, and version number etc. Don't rename this file.
