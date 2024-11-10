@@ -19,6 +19,12 @@ Here's an example to replace the word "beauty" with "chickens":
 var newContent = el.innerHTML.replace(/beauty/g,"chickens");
 ```
 
+Here's another example to replace the word "democracy" with "bureaucracy":
+
+```javascript
+var newContent = el.innerHTML.replace(/democracy/g,"bureaucracy");
+```
+
 ## Installing the extension
 This Chome extension requires the manifest.json and replaceWord.js files to be zipped into one file and added to the browser (or uploaded to the [Chrome Web Store](https://developer.chrome.com/webstore/publish)).
 
