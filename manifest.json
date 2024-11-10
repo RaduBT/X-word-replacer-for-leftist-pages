@@ -2,13 +2,13 @@
   "manifest_version": 2,
   "name": "YOUR TITLE",
   "version": "0.1",
-  "description": "This is a Chrome extension that replaces SOME_WORD with SOME_OTHER_WORD on Twitter exclusively.",
+  "description": "This is a Chrome extension that replaces SOME_WORD with SOME_OTHER_WORD on X exclusively.",
 
-  "permissions": ["https://twitter.com/*"],
+  "permissions": ["https://x.com/*"],
 
   "content_scripts": [
     {
-      "matches": ["https://twitter.com/*"],
+      "matches": ["https://x.com/*"],
       "js": ["replaceWord.js"]
     }
   ]
